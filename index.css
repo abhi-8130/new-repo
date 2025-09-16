@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+}
+.mainbox2 {
+    display: flex;
+}
+#box1 {
+    height: 83px;
+    width: 100%;
+    background-color:blueviolet;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.box2 {
+    height: 400px;
+    width: 33.33%;
+    background-color: cyan;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-left: 75px;
+    border-radius: 5px;
+}
+#image {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px ;
+    border: solid 1px black;
+}
+body {
+    background-color:rgb(234, 54, 240);    
+}
+.image2 {
+    height: 320px;
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+}
+.logo {
+    height: 70px;
+    width: 178px;
+    border-radius: 10px;
+    border: 2px dashed blue;
+}
+#image4 {
+    height: 320;
+}
+#text {
+    height: 30px;
+    width: 100%;
+    color: black;
+}
+.box3 {
+     height: 410px;
+    width: 400px;
+    background-color: cyan;
+    border: 1px solid black;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding-left: 75px;
+}
+#loader {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: solid black 30px;
+    border-top-color:blue;
+    animation: rotate 1s infinite;
+}
+@keyframes rotate {
+    100% {
+        rotate: 360deg;
+    }
+}
+.loadertextbox {
+    height: 70px;
+    width: 200px;
+    background-color:blue;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+#loadertext {
+    
+}
